@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!-- Specifies to the browser we are using HTML-->
+<html lang="en"> <!-- This is the actual HTML tag with the language we are using-->
+
+<head>
+    <!-- Head includes all the meta information in the document. This is the information that is not visible to the user, its basically the brain of the document-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <!-- This line if code is important for our whole webpage. This links our HTML document to our CSS document, which allows us to style our whole webpage-->
+    <title>Cats Galore</title>
+</head>
+
+<body> <!--This is the body of the website, all tags, attributes and text NEED to be contain with this tag-->
+
+
+
+    <section>
+        <!-- This is a section tag, which also a container tag. This allows us to group important parts of our website together. We have used this section tag here in order to contain all of our typography tags-->
+        <header>
+            <!-- This is a single use tag called header, where the main header or title of the website will be contained-->
+            <h1 class="title">Cats Galore</h1>
+            <!--This is the h1 tag where we have added our title to our website. We have also added a class method in here to link to our CSS document-->
+            <nav class="navigation">
+                <!-- This is a nav tag which is usual contained within the header. This will contain navigate links for out website. Nav tags always contain anchor attributes as these store links to other webpages or other pages linked to our website.-->
+
+                <a href="#main">
+                    <!-- Here we have added a anchor tag which contains a "#" link. This link is a tag link which will take the user to the part of the page which is linked in that href.-->
+                    <p>Main</p>
+                </a>
+
+                <a href="#footer">
+                    <p>Footer</p>
+                </a>
+
+            </nav>
+        </header>
+        <!-- This is a header tag (typography tag). These tags can go upto h6, with h1 being the most promenant on the website and there only tends to be one h1 tag per webpage for the title -->
+        <main id="main">
+            <!-- This is another single use tag called main, where the bulk of the website will be contained-->
+            <h2>Everything you need to know about cats!</h2> <!-- Example of a h2 tag (typography tag)-->
+
+            <p>Cats are my favourite animal on the face of the earth so I am creating this website because of this</p>
+            <!-- This is an example of a paragraph tag (typography tag) which is a single use closing tag used to store text for a webpage-->
+    </section>
+
+    <section> <!-- Here we have used another section tag to group our utility tags together-->
+        <div>
+            <!--Here we have used a div tag which stands for division and its another container tag. We have used this here instead of a section tag as 1. these tags are already contained in a section tag and 2. the image and href link are both related to eachother which is where we used the div tag-->
+            <img class="cat-picture"
+                src="data:image/jpeg;base64,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"
+                alt="fat-cat">
+            <!-- This is an example of an image tag (utility tag) which is an open tag. We need to give this tag an attribute which in this case is the "src" attribute which is where we store the image source. It also has another attribute called "alt" which is a description of the image-->
+
+            <a href="https://thecatsite.com" target="_blank">
+                <!-- This is an example of an anchor tag, which is used to create an anchorage (link) to another location on the internet. Anything in bewtween the opening and closing anchor tags are called the children of the anchor tag. In order for an acnhor tag to work, we need to add a "href" attribute into the opening tag to the link can be clicked-->
+                <!-- Here we have also added an id for this anchor, which we can use to link to our CSS document-->
+
+
+                <p class="link-to-cat-images">Click here for more cat images</p>
+                <!-- (typography tag) This will be the clickable text on the webpage which will cover the hyperlink-->
+            </a>
+        </div>
+        <form>
+            <!-- This is another example of a contain tag however its used specifically for user inputs. As you can see we have contained this around the input and submit box's-->
+            <label>
+                <!-- (utility tag) The lable tag, which is a utility tag, is used to wrap around an input tag usually-->
+                <p>Cat name:</p>
+                <!-- (typography tag) We have also added a paragraph tag in here which will sit above the input box-->
+                <input placeholder="Enter the name of your cat" />
+                <!-- (utility tag) This is an example of an input tag, which will open up an input box on the webpage. We have added the "placeholder attribute which adds placeholder text on the input box usually telling the user what to input-->
+            </label>
+
+            <button name="Submit" type="submit" value="text">
+                <!-- (utility tag) The button tag is another utility tag which should always be placed under the lable tag for it to sit next to it on the webpage. After the user has inputted their text they are then able to submit it to the database. We have also added some additional attributes for best practice-->
+                <p>Submit</p>
+                <!-- Paragraph tag included which will display for the user. Always contained inside the button tags-->
+            </button>
+        </form>
+    </section>
+    </main>
+    <footer id="footer">
+        <!-- This is another single use tag which is used to contain the footer information of the website. We have added an ID which is used in the nav tag at the top of the page-->
+        Copyright 2024
+    </footer>
+</body>
+
+</html>

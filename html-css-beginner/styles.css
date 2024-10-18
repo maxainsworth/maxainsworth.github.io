@@ -1,0 +1,32 @@
+body {
+    /* This is the first method to target styling on a HTML document. Here we are targeting the body which is the whole page and we are changing the background colour */
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.navigation {
+    color: blue;
+       
+}
+
+.link-to-cat-images {
+    /* This is the second way to target styling on a HTML document. Here we have used a href to target the hyperlink to to see more cats and we have changed the colour to blue */
+    color: blue;
+
+}
+
+.title {
+    /* This is the third way to target styling on a HTML document. Here we have used a class method to target the title of the webpage and we have underlined it using the text decoration attribute */
+    text-decoration: underline;
+
+}
+
+.cat-picture {
+    height: auto;
+    max-width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+
+}
