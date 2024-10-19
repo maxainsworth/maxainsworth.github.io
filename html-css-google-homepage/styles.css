@@ -99,12 +99,12 @@ main {
 
 .input-bar {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    align-items: center; 
+    gap: 0.5rem; 
     width: 100%;
     max-width: 500px;
     border: 1px solid rgb(238, 236, 236);
-    padding: 1rem;
+    padding: 0.5rem; 
     border-radius: 1rem;
 }
 
@@ -115,22 +115,23 @@ main {
 
 
 .input-bar input {
-    flex: 1;
+    flex: 1; 
     border: none;
     outline: none;
-    width: 100%;
-
+    padding: 0.5rem; 
 }
 
 .input-bar div {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+    display: flex; 
+    align-items: center; 
+    gap: 0.5rem; 
 }
 
 .input-icon {
     background: transparent;
     border: none;
+    cursor: pointer; 
+    padding: 0.5rem; 
 }
 
 .input-icon:hover {
