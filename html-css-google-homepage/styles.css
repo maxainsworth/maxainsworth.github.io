@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     gap: 1rem;
 
 }
@@ -51,6 +51,28 @@ footer a:hover {
     display: grid;
     place-items: center;
 
+}
+
+.sign-in-button {
+    background-color: #0b57d0;
+    border: none;
+    color: white;
+    display: flex;
+    padding: 10px 12px;
+    margin: 12px 16px 12px 10px;
+    border-radius: 100px;
+    min-height: 40px;
+    outline: none;
+    line-height: 18px;
+    text-decoration: none;
+    
+}
+
+.sign-in-button:hover,
+.sign-in-button:focus-within {
+    box-shadow: 0 0 1px 2px rgb(148, 155, 162);
+    text-decoration: none;
+    
 }
 
 .google-header {
@@ -210,3 +232,4 @@ footer>div {
         display: block;
     }
 }
+
