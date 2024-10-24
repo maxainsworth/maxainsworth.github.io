@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create your account</h1>
+        <form id="createAccountForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="3" maxlength="15">
+            <span class="error" id="usernameError"></span>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8" 
+                   pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}" 
+                   title="Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.">
+            <span class="error" id="passwordError"></span>
+        
+            <button type="submit">Create Account</button>
+        </form>
+        
+        <p>Already have an account? <a href="signin.html">Sign in</a></p>
+    </div>
+</body>
+</html>
