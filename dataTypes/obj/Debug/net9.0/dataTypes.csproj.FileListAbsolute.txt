@@ -1,0 +1,15 @@
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/bin/Debug/net9.0/dataTypes
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/bin/Debug/net9.0/dataTypes.deps.json
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/bin/Debug/net9.0/dataTypes.runtimeconfig.json
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/bin/Debug/net9.0/dataTypes.dll
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/bin/Debug/net9.0/dataTypes.pdb
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.AssemblyInfoInputs.cache
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.AssemblyInfo.cs
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.csproj.CoreCompileInputs.cache
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.sourcelink.json
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.dll
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/refint/dataTypes.dll
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.pdb
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/dataTypes.genruntimeconfig.cache
+/Users/maximainsworth/Desktop/github/Max-projects/dataTypes/obj/Debug/net9.0/ref/dataTypes.dll

@@ -1,0 +1,14 @@
+
+    {
+    "[csharp]": {
+        "editor.tabSize": 2,
+        "editor.fontSize": 12,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.quickSuggestions": {
+            "other": "on", 
+            "comments": "on",
+            "strings": "on"
+        }
+    }
+    }
