@@ -39,6 +39,24 @@ namespace cSharpPractice
     }
   }
 
+  class dogInformation
+  {
+    public static void Run()
+    {
+      string dogName = "Archie";
+      string dogBreed = "Westie";
+      int dogAge = 5;
+      double dogWeight = 65.22;
+      bool spayed = true;
+      Console.WriteLine(dogName);
+      Console.WriteLine(dogBreed);
+      Console.WriteLine(dogAge);
+      Console.WriteLine(dogWeight);
+      Console.WriteLine(spayed);
+    }
+  }
+
+
   class MainProgram
   {
     static void Main(string[] args)
@@ -47,6 +65,7 @@ namespace cSharpPractice
       Console.WriteLine("Which program do you want to run?");
       Console.WriteLine("1 - HelloWorld");
       Console.WriteLine("2 - OddOrEvenNumber");
+      Console.WriteLine("3 - dogInformation");
 
       string choice = Console.ReadLine();
 
@@ -57,6 +76,10 @@ namespace cSharpPractice
       else if (choice == "2")
       {
         OddOrEvenNumber.Run();  // Calling OddOrEvenNumber's Run method
+      }
+      else if (choice == "3")
+      {
+        dogInformation.Run();  // Calling dogInformation's Run method
       }
       else
       {
