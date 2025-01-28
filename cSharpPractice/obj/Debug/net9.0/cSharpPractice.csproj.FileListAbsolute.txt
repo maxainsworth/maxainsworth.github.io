@@ -1,0 +1,15 @@
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/bin/Debug/net9.0/cSharpPractice
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/bin/Debug/net9.0/cSharpPractice.deps.json
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/bin/Debug/net9.0/cSharpPractice.runtimeconfig.json
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/bin/Debug/net9.0/cSharpPractice.dll
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/bin/Debug/net9.0/cSharpPractice.pdb
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.AssemblyInfoInputs.cache
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.AssemblyInfo.cs
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.csproj.CoreCompileInputs.cache
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.sourcelink.json
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.dll
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/refint/cSharpPractice.dll
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.pdb
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/cSharpPractice.genruntimeconfig.cache
+/Users/maximainsworth/Desktop/github/Max-projects/cSharpPractice/obj/Debug/net9.0/ref/cSharpPractice.dll
